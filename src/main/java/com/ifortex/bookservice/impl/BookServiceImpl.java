@@ -1,6 +1,8 @@
-package com.ifortex.bookservice.service;
+package com.ifortex.bookservice.impl;
 
 import java.util.Map;
+
+import com.ifortex.bookservice.service.BookService;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 

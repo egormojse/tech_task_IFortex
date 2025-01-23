@@ -1,6 +1,7 @@
-package com.ifortex.bookservice.service;
+package com.ifortex.bookservice.impl;
 
 import com.ifortex.bookservice.model.Member;
+import com.ifortex.bookservice.service.MemberService;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.jdbc.core.RowMapper;
@@ -11,7 +12,7 @@ import java.sql.SQLException;
 import java.util.List;
 
 @Service
-public class MemberServiceImpl implements MemberService{
+public class MemberServiceImpl implements MemberService {
 
     private final JdbcTemplate jdbcTemplate;
 
